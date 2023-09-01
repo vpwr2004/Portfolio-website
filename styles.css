@@ -1575,11 +1575,23 @@
 
 
 @media(max-width:480px){
-  .aboutHeading, .skillsHeading, .ServicesHeading, .ResumeHeading, .ProjectHeading, .ContactMeHeading{
+  .aboutHeading{
     font-size: 2.8rem;
   }
-  /* .ProjectHeading{
+  .ProjectHeading{
     font-size: 2.8rem;
-  } */
+  }
+  .skillsCard h2{
+    font-size: 2.8rem;
+  }
+  .ServicesHeading{
+    font-size: 2.8rem;
+  }
+  .ResumeHeading{
+    font-size: 2.8rem;
+  }
+  .ContactMeHeading{
+    font-size: 2.8rem;
+  }
   
 }
