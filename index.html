@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="icon" type="image/x-icon" href="./images/vlogo.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            emailjs.init('h5xkTH-AnTRn9swp6') 
+        </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- navbar section  -->
+        <section class="navbar">
+            <section class="navSec1">
+                <div class="navName">
+                    <img src="./images/vlogo.png" height="60px" width="60px">
+                    <p>ivek</p>
+                </div>
+
+                <ul class="navSection">
+                    <li>
+                        <a href="#Home" class="navElement">Home</a>
+                    </li>
+                    <li>
+                        <a href="#About" class="navElement">About</a>
+                    </li>
+                    <li>
+                        <a href="#Skills" class="navElement">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#Resume" class="navElement">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#Services" class="navElement">Services</a>
+                    </li>
+                    <li>
+                        <a href="#Projects" class="navElement">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#Contact" class="navElement">Contact</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="navSec2">
+
+                <div class="hamName">
+                    <img src="./images/vlogo.png" height="60px" width="60px">
+                    <p>ivek</p>
+                </div>
+                <!-- Navigation links (hidden by default) -->
+                <div class="hamSection">
+                    <a class="hamElement" href="#Home">Home</a>
+                    <a class="hamElement" href="#About">About</a>
+                    <a class="hamElement" href="#Skills">Skills</a>
+                    <a class="hamElement" href="#Resume">Resume</a>
+                    <a class="hamElement" href="#Services">Services</a>
+                    <a class="hamElement" href="#Projects">Projects</a>
+                    <a class="hamElement" href="#Contact">Contact</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+            </section>
+
+
+        </section>
+
+        <!-- Home Section  -->
+
+        <section class="home" id="Home">
+            <div id="particles-js">
+
+            </div>
+            <div data-aos="fade-up" class="homeContainer">
+                <div class="homeDetails">
+                    <p class="homeFirst">Hi! Vivek Kumar</p>
+                    <p class="homeSecond">I am a <span class="role"></span></p>
+                    <p class="homeThird">I'm a software developer and here is my portfolio <br> website.Here you'll
+                        learn about my journey as a software developer.</p>
+                    <button class="homeBtn">Hire Me</button>
+                    <div class="homeSocialMedia">
+                        <a href="https://github.com/vpwr2004"><i class="fa-2x fa-brands fa-github githubIcon"></i></a>
+                        <a href="https://www.linkedin.com/in/vivek-kumar-8b0318214"><i class="fa-2x fa-brands fa-linkedin linkedinIcon"></i></a>
+                        <a href="https://instagram.com/vivek_panwar18?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><i class="fa-2x fa-brands fa-instagram instagramIcon"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100089625037294&mibextid=ZbWKwL"><i class="fa-2x fa-brands fa-facebook facebookIcon"></i></a>
+                        <a href="https://wa.me/917055029251"><i class="fa-2x fa-brands fa-whatsapp whatsappIcon"></i></a>
+                    </div>
+                </div>
+                <div class="homeImg">
+                    <img src="./images/myImg14.png" width="350px">
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <!-- About Section  -->
+
+        <section class="aboutSection" id="About">
+            <div  data-aos="fade-left" class="aboutContainer">
+                <p class="aboutHeading">About Me</p>
+                <div class="aboutMain">
+                    <div class="aboutLeft">
+                        <img src="./images/myImg11.jpg">
+                    </div>
+                    <div class="aboutRight">
+                        <p class="aboutMainHeading">Software Developer & Coder</p>
+                        <p class="aboutMainPara"> I'm a web developer skilled in HTML, CSS, and JavaScript. I specialize in crafting captivating websites by combining clean code, creative design, and interactive experiences. With a sharp eye for detail, I transform concepts into user-friendly digital realities. Let's collaborate to bring your ideas to life on the web!</p>
+
+                        <!-- about details left -->
+                        <div class="aboutDetailsBox">
+
+                            <div class="aboutDetail">
+                                <i class="fa fa-chevron-right"></i>
+                                <div class="aboutDetailEle">
+                                    <p>Name:</p>
+                                    <p>Vivek Kumar</p>
+                                </div>
+                            </div>
+
+                            <div class="aboutDetail">
+                                <i class="fa fa-chevron-right"></i>
+                                <div class="aboutDetailEle">
+                                    <p>Date-of-birth:</p>
+                                    <p>18 Jan 2004</p>
+                                </div>
+                            </div>
+
+                            <div class="aboutDetail">
+                                <i class="fa fa-chevron-right"></i>
+                                <div class="aboutDetailEle">
+                                    <p>City:</p>
+                                    <p>Jhansi, UP</p>
+                                </div>
+                            </div>
+
+                            <div class="aboutDetail">
+                                <i class="fa fa-chevron-right"></i>
+                                <div class="aboutDetailEle">
+                                    <p>Email:</p>
+                                    <p>59kumarvivek@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <div class="aboutDetail">
+                                <i class="fa fa-chevron-right"></i>
+                                <div class="aboutDetailEle">
+                                    <p>Contact:</p>
+                                    <p>+91 7055029251</p>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+
+                        <a href="./images/Vivek's Resume.pdf" download="">
+                            <button class="ResumeBtn" >Download Resume</button>
+                        </a>
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- skills section  -->
+        <section id="Skills">
+            <div data-aos="fade-up" class="skillsCard">
+                <div class="skillsContainer">
+                    <h2 class="skillsHeading" data-aos="fade-up">My Skills </h2>
+                    <div class="skillsBoth">
+                        <div class="skillsLeft">
+                            <div data-aos="fade-up" class="skillsBox">
+                                <div class="skillsData">
+                                    <span>HTML</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="html-bar"></div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" class="skillsBox">
+                                <div class="skillsData">
+                                    <span>CSS</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="css-bar"></div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" class="skillsBox">
+                                <div class="skillsData">
+                                    <span>Javascript</span>
+                                    <span>72%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="js-bar"></div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" class="skillsBox">
+                                <div class="skillsData">
+                                    <span>React</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="React-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skillsRight">
+                            <div data-aos="fade-up" class="skillsBox">
+                                <div class="skillsData">
+                                    <span>C++</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="C-bar"></div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" class="skillsBox">
+                                <div class="skillsData">
+                                    <span>Tailwind</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="Tailwind-bar"></div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" class="skillsBox">
+                                <div class="skillsData">
+                                    <span>Bootstrap</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="Bootstrap-bar"></div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" class="skillsBox">
+                                <div class="skillsData">
+                                    <span>Python</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="bar">
+                                    <div id="Python-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Resume  Section -->
+
+        <section class="Resume" id="Resume">
+            <!-- Education Section -->
+            <p data-aos="fade-up" class="ResumeHeading">My Resume</p>
+            <div class="ResumeContainer">
+                <div class="ResumeBox">
+                    <div class="Education">
+                        <p data-aos="fade-right" class="EducationHeading">Education</p>
+                        <div  class="EducationDetails">
+
+                            <div data-aos="fade-right" class="EducationBox">
+                                <div class="EducationYear EducationYearCurr">2021-Present</div>
+                                <div class="card ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title">Bachelor's in Computer Science & Engineering</h5>
+                                        <h6 class="card-subtitle mb-2 ">Bundelkhand Institute of Engineering &
+                                            Technology, Jhansi</h6>
+                                        <p class="card-text">Learning a lot about new
+                                            Technologies and brushing up my skills day by day.</p>
+                                        <p class="card-subtext"><b>CGPA:</b> 8.5(till 3rd sem)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-right" class="EducationBox">
+                                <div class="EducationYear">2018-2020</div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Intermediate</h5>
+                                        <h6 class="card-subtitle mb-2 ">Guru Teg Bahadur Public School, Noorpur</h6>
+                                        <p class="card-text">I've completed my class 12th from a CBSE affiliated institute.</p>
+                                        <p class="card-subtext"><b>Percentage:</b> 91.4%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-right" class="EducationBox">
+                                <div class="EducationYear">2016-2018</div>
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <h5 class="card-title">High School</h5>
+                                        <h6 class="card-subtitle mb-2 ">St Mary's Convent School, Noorpur</h6>
+                                        <p class="card-text">Completed my 10th standard from a CBSE affiliated institute.</p>
+                                        <p class="card-subtext"><b>Percentage:</b> 80%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="Education">
+                        <p data-aos="fade-left" class="ExperienceHeading">Experience</p>
+                        <div  class="EducationDetails">
+                            <div data-aos="fade-left" class="EducationBox">
+                                <div class="EducationYear EducationYearCurr">2022-Present</div>
+                                <div class="card ">
+                                    <div class="card-body  ExperienceBox">
+                                        <h5 class="card-title">Frontend Web Developer and Programmer</h5>
+                                        <h6 class="card-subtitle mb-2 ">Bundelkhand Institute of Engineering &
+                                            Technology, Jhansi</h6>
+                                        <p class="card-text">I've learned a lot about programming languages , web development and made many projects too.</p>
+                                        <p class="card-subtext"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-left" class="EducationBox ">
+                                <div class="EducationYear">2022-Present</div>
+                                <div class="card">
+                                    <div class="card-body ExperienceBox">
+                                        <h5 class="card-title">Coordinator</h5>
+                                        <h6 class="card-subtitle mb-2 ">The Syntax Society, Biet Jhansi</h6>
+                                        <p class="card-text">Problem Setter in various contest organized every month and doubt solver related to data structure and algorithms.</p>
+                                        <p class="card-subtext"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-aos="fade-left" class="EducationBox">
+                                <div class="EducationYear">2022-Present</div>
+                                <div class="card">
+                                    <div class="card-body ExperienceBox">
+                                        <h5 class="card-title">Coordinator</h5>
+                                        <h6 class="card-subtitle mb-2 ">Computer Science Student's Council, Biet Jhansi</h6>
+                                        <p class="card-text">A dedicated member of Technical team responsibe for orgainzing coding contest and member of management team.</p>
+                                        <p class="card-subtext"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- Services Section -->
+        <section class="Services" id="Services">
+            <p data-aos="fade-up" class="ServicesHeading">Services</p>
+            <div class="ServicesContainer">
+
+                <div data-aos="fade-up" class="card" style="width: 22rem;">
+                    <img class="cardImg" src="./images/web dev icon.png" width="60px" height="60px">
+                    <div class="card-body">
+                        <h5 class="card-title">Front End Developer</h5>
+                        <div class="card-line"></div>
+                        <p class="card-text">"Crafting digital landscapes through innovative web development."</p>
+
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="card" style="width: 22rem;">
+                    <img class="cardImg" src="./images/coding icon.png" width="60px" height="60px">
+                    <div class="card-body">
+                        <h5 class="card-title">Compitetive Programmer</h5>
+                        <div class="card-line"></div>
+                        <p class="card-text">"Weaving complex ideas into functional code for seamless digital solutions."</p>
+
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="card" style="width: 22rem;">
+                    <img class="cardImg" src="./images/problem setter icon.png" width="60px" height="60px">
+                    <div class="card-body">
+                        <h5 class="card-title">Problem Setter</h5>
+                        <div class="card-line"></div>
+                        <p class="card-text">"Crafts intricate challenges to tease the minds of aspiring programmers through the art of DSA."</p>
+
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="card" style="width: 22rem;">
+                    <img class="cardImg" src="./images/doubt solver icon.png" width="60px" height="60px">
+                    <div class="card-body">
+                        <h5 class="card-title">DSA Doubt Solver</h5>
+                        <div class="card-line"></div>
+                        <p class="card-text">"Solving various doubts related to data structure and algorithms."</p>
+
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="card" style="width: 22rem;">
+                    <img class="cardImg" src="./images/ui-ux icon.png" width="60px" height="60px">
+                    <div class="card-body">
+                        <h5 class="card-title">UI/UX Design</h5>
+                        <div class="card-line"></div>
+                        <p class="card-text">"Elevating user journeys with intuitive and visually stunning UI/UX designs."</p>
+
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="card" style="width: 22rem;">
+                    <img class="cardImg" src="./images/photoshop icon.png" width="60px" height="60px">
+                    <div class="card-body">
+                        <h5 class="card-title">Photoshop</h5>
+                        <div class="card-line"></div>
+                        <p class="card-text">"Transforming visions into reality through precise and imaginative photoshop skills."</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Section  -->
+        <section class="Projects" id="Projects">
+            <div class="ProjectsContainer">
+                <div data-aos="fade-up" class="ProjectHeading">My Projects</div>
+                <div class="ProjectCards">
+                    <div data-aos="fade-up" class="ProjectBox ProjectBox1">
+                        <div class="ProjectHoverBox ">
+                            <div class="ProjectHoverBoxLeft">
+                            </div>
+                            <div class="ProjectHoverBoxMid">
+                                <p class="ProjectName">Weather App</p>
+                                <div class="ProjectLink">
+                                    <a href="https://github.com/vpwr2004/weather-app.git"><i class="ProjectIcon fa-2x fa-brands fa-github"></i></a>
+                                    <a href="https://vpwr2004.github.io/weather-app/"><i class="ProjectIcon fa-2x fa-solid fa-link"></i></a>
+                                </div>
+                                <p class="ProjectDetail">HTML5, CSS3, JAVASCRIPT AND API BASED PROJECT</p>
+                            </div>
+                            <div class="ProjectHoverBoxRight">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div data-aos="fade-up" class="ProjectBox ProjectBox2">
+                        <div class="ProjectHoverBox ">
+                            <div class="ProjectHoverBoxLeft">
+                            </div>
+                            <div class="ProjectHoverBoxMid">
+                                <p class="ProjectName">Password Generator</p>
+                                <div class="ProjectLink">
+                                    <a href="https://github.com/vpwr2004/Password-generator.git"><i class="ProjectIcon fa-2x fa-brands fa-github"></i></a>
+                                    <a href="https://vpwr2004.github.io/Password-generator/"><i class="ProjectIcon fa-2x fa-solid fa-link"></i></a>
+                                </div>
+                                <p class="ProjectDetail">HTML5, CSS3 AND JAVASCRIPT BASED PROJECT</p>
+                            </div>
+                            <div class="ProjectHoverBoxRight">
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" class="ProjectBox ProjectBox3">
+                        <div class="ProjectHoverBox ">
+                            <div class="ProjectHoverBoxLeft">
+                            </div>
+                            <div class="ProjectHoverBoxMid">
+                                <p class="ProjectName">Tic Tac Toe</p>
+                                <div class="ProjectLink">
+                                    <a href="https://github.com/vpwr2004/tic-tac-toe-game.git"><i class="ProjectIcon fa-2x fa-brands fa-github"></i></a>
+                                    <a href="https://vpwr2004.github.io/tic-tac-toe-game/"><i class="ProjectIcon fa-2x fa-solid fa-link"></i></a>
+                                </div>
+                                <p class="ProjectDetail"> HTML5, CSS3 AND JAVASCRIPT BASED PROJECT</p>
+                            </div>
+                            <div class="ProjectHoverBoxRight">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" class="ProjectBox ProjectBox4">
+                        <div class="ProjectHoverBox ">
+                            <div class="ProjectHoverBoxLeft">
+                            </div>
+                            <div class="ProjectHoverBoxMid">
+                                <p class="ProjectName">Calculator-app</p>
+                                <div class="ProjectLink">
+                                    <a href="https://github.com/vpwr2004/Calculator-app.git"><i class="ProjectIcon fa-2x fa-brands fa-github"></i></a>
+                                    <a href="https://vpwr2004.github.io/Calculator-app/"><i class="ProjectIcon fa-2x fa-solid fa-link"></i></a>
+                                </div>
+                                <p class="ProjectDetail">BASIC HTML5, CSS3 AND JAVASCRIPT BASED PROJECT</p>
+                            </div>
+                            <div class="ProjectHoverBoxRight">
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" class="ProjectBox ProjectBox5">
+                        <div class="ProjectHoverBox ">
+                            <div class="ProjectHoverBoxLeft">
+                            </div>
+                            <div class="ProjectHoverBoxMid">
+                                <p class="ProjectName">Portfolio Website</p>
+                                <div class="ProjectLink">
+                                    <a href="#"><i class="ProjectIcon fa-2x fa-brands fa-github"></i></a>
+                                    <a href="#"><i class="ProjectIcon fa-2x fa-solid fa-link"></i></a>
+                                </div>
+                                <p class="ProjectDetail"> HTML5, CSS3, JAVASCRIPT, PARTICLE.JS AND EMAIL.JS BASED PROJECT</p>
+                            </div>
+                            <div class="ProjectHoverBoxRight">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project counter -->
+        <div class="projectcounter" onpointermove="anime()">
+
+            <div class="content">
+
+                <div class="dwes" data-aos="fade-up">
+                    <div class="name">Projects</div>
+                    <div class="counticon"><img src="./images/project icon.png" ></div>
+                    
+                    <div class="value" akhi="10">0
+                    </div>
+                    
+                </div>
+
+                <div class="dwes" data-aos="fade-up">
+                    <div class="name">Likes </div>
+                    <div class="counticon"><img src="./images/like icon.png" alt=""></div>
+                    <div class="value" akhi="500">0
+                    </div>
+                </div>
+
+                
+            </div>
+
+        </div>
+
+        <!-- Contact Me Section  -->
+        <section class="ContactMe" id="Contact">
+            <div data-aos="fade-up" class="ContactMeHeading">
+                <p>Contact Me</p>
+
+            </div>
+            <div class="ContactMeContainer">
+                <div data-aos="fade-up" class="ContactMeBox">
+                    <div class="ContactMeIcon">
+                        <img src="./images/location.png" width="45px" height="45px" loading="lazy">
+                    </div>
+                    <div class="ContactMeBoxDetail">
+                        <p class="ContactMeBoxHeading" >My Address</p>
+                        <p class="ContactMeBoxText">BIET Jhansi, UP</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="ContactMeBox">
+                    <div class="ContactMeIcon">
+                        <img src="./images/share icon.png"  width="40px" height="40px" loading="lazy">
+                    </div>
+                    <div class="ContactMeBoxDetail ">
+                        <p class="ContactMeBoxHeading">Social Profiles</p>
+                        <div class="ContactMeShareIcon">
+                            <a href="https://github.com/vpwr2004"><i class="fa-2x fa-brands fa-github githubIcon"></i></a> 
+                            <a href="https://www.linkedin.com/in/vivek-kumar-8b0318214"><i class="fa-2x fa-brands fa-linkedin linkedinIcon"></i></a>
+                            <a href="https://instagram.com/vivek_panwar18?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><i class="fa-2x fa-brands fa-instagram instagramIcon"></i></a>
+                            <a href="https://wa.me/917055029251"><i class="fa-2x fa-brands fa-whatsapp whatsappIcon"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="ContactMeBox">
+                    <div class="ContactMeIcon">
+                        <img src="./images/mail icon.png"  width="40px" height="40px" loading="lazy">
+    
+                    </div>
+                    <div class="ContactMeBoxDetail">
+                        <p class="ContactMeBoxHeading">Mail Me</p>
+                        <p class="ContactMeBoxText">59kumarvivek@gmail.com</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="ContactMeBox">
+                    <div class="ContactMeIcon">
+                        <img src="./images/call icon.png" width="40px" height="40px" loading="lazy">
+                    </div>
+                    <div class="ContactMeBoxDetail">
+                        <p class="ContactMeBoxHeading">Call Me</p>
+                        <p class="ContactMeBoxText">+91 7055029251 </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Message container  -->
+            <form data-aos="fade-up" class="MessageContainer " id="ContactForm">
+                <input type="text" placeholder="Your Name" class="MessageNameBox MessageBox" name="from_name" id="from_name" required>
+                <input type="text" placeholder="Yout Email" class="MessageEmailBox MessageBox" name="from_email" id="from_email" required>
+                <input type="text" placeholder="Subject" class="MessageSubjectBox MessageBox" name="subject" id="subject" required>
+                <textarea name="message" id="message" cols="20" rows="8" placeholder="Message" class="MessageMessageBox MessageBox" required></textarea>
+                <button type="submit" value="Send Email" class="MessageSendBtn button" id="button">Send Message</button>
+            </form>
+            
+        </section>
+
+        <section class="footer">
+            <div data-aos="fade-up" class="footerIcon">
+                <a href="https://github.com/vpwr2004"><i class="fa-2x fa-brands fa-github githubIcon"></i></a>
+                <a href="https://www.linkedin.com/in/vivek-kumar-8b0318214"><i class="fa-2x fa-brands fa-linkedin linkedinIcon"></i></a>
+                <a href="https://instagram.com/vivek_panwar18?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><i class="fa-2x fa-brands fa-instagram instagramIcon"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100089625037294&mibextid=ZbWKwL"><i class="fa-2x fa-brands fa-facebook facebookIcon"></i></a>
+                <a href="https://wa.me/917055029251"><i class="fa-2x fa-brands fa-whatsapp whatsappIcon"></i></a>
+            </div>
+            <div data-aos="fade-up" class="footerNav">
+                
+                <ul class="navSection">
+                    <li>
+                        <a href="#Home" class="navElement">Home</a>
+                    </li>
+                    <li>
+                        <a href="#About" class="navElement">About</a>
+                    </li>
+                    <li>
+                        <a href="#Resume" class="navElement">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#Projects" class="navElement">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#Skills" class="navElement">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#Services" class="navElement">Services</a>
+                    </li>
+                    <li>
+                        <a href="#Contact" class="navElement">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="footerText">
+                <div class="footerText1">
+                    <p>Designed & Developed By Vivek Kumar</p>
+                    <img src="./images/india icon.png" height="25px" width="25px">
+                </div>
+                <div class="footerText1">
+                    <p>Copyright © 2023 Vivek Kumar|| All Rights Reserved</p>
+                </div>
+                
+            </div>
+            
+        </section>
+
+    </div>
+
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Front End Developer",
+                "Web Developer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        })
+    </script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <!-- AOS script  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+
+</html>
