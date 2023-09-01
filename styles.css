@@ -1577,27 +1577,21 @@
 @media(max-width:480px){
   .aboutHeading{
     font-size: 2.8rem;
-    opacity: 0.6;
   }
   .ProjectHeading{
     font-size: 2.8rem;
-    opacity: 0.6;
   }
   .skillsCard h2{
     font-size: 2.8rem;
-    opacity: 0.6;
   }
   .ServicesHeading{
     font-size: 2.8rem;
-    opacity: 0.6;
   }
   .ResumeHeading{
     font-size: 2.8rem;
-    opacity: 0.6;
   }
   .ContactMeHeading{
     font-size: 2.8rem;
-    opacity: 0.6;
   }
   
 }
