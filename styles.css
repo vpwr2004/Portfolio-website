@@ -577,7 +577,7 @@
 }
 @keyframes css-fill{
   100%{
-      width: 75%;
+      width: 85%;
   }
 }
 #js-bar{
@@ -585,7 +585,7 @@
 }
 @keyframes js-fill {
   100%{
-      width: 72%;
+      width: 85%;
   }
 }
 #React-bar{
@@ -593,7 +593,7 @@
 }
 @keyframes React-fill{
   100%{
-      width: 85%;
+      width: 80%;
   }
 } 
 #C-bar{
@@ -617,7 +617,7 @@
 }
 @keyframes Bootstrap-fill{
   100%{
-      width: 80%;
+      width: 85%;
   }
 } 
 #Python-bar{
@@ -625,7 +625,7 @@
 }
 @keyframes Python-fill{
   100%{
-      width: 60%;
+      width: 80%;
   }
 } 
 @media(max-width:700px){
